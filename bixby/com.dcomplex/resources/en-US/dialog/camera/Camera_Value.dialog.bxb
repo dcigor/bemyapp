@@ -1,0 +1,6 @@
+dialog (Value) {
+  match {
+    Camera (camera)
+  }
+  template ("#{value (camera.name)}")
+}

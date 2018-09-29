@@ -1,0 +1,4 @@
+train (t-s49axbnwv6fwwhyyvrn9picol) {
+  utterance ("[g:Camera] find (3)[v:Count] (all)[v:CameraName] cameras")
+  plan (Y2BhEE7Oz9VLARIFOakVes6JualFiQwSKIJumXkpEIliBnEsyv2AJIMQqkR+aV4JAzMDIwMTkGQA0iAIASA+WBQA)
+}

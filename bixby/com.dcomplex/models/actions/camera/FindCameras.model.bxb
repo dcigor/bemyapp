@@ -1,0 +1,22 @@
+action (FindCameras) {
+  type (Search)
+  collect {
+    input (name) {
+      type (CameraName)
+      min (Optional)
+    }
+    input (count) {
+      type (Count)
+      min (Optional)
+      default-init {
+        intent {
+          goal {Camera}
+          value {
+            Count (5)
+          }
+        }
+      }
+    }
+  }
+  output (Camera)
+}

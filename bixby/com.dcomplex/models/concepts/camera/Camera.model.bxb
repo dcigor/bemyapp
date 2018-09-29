@@ -1,0 +1,14 @@
+structure (Camera) {
+  property (name) {
+    type (CameraName)
+    min (Required)
+  }
+  property (Id) {
+    type (CameraId)
+    min (Required)
+  }
+  property (image) {
+    type (entity.ImageSet)
+    max(One) min (Required)
+  }
+}

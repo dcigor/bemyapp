@@ -1,0 +1,3 @@
+text (CameraName) {
+  description (Name of a camera)
+}

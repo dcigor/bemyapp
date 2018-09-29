@@ -1,0 +1,8 @@
+train (t-ca0c4dx6xkdx9ie2sioi6xrj4) {
+  utterance ("[g:Camera] show (3)[v:Count] (street)[v:CameraName] cameras")
+  plan (Y2BhEE7Oz9VLARIFOakVes6JualFiQwSKIJumXkpEIliBnEsyv2AJIMQqkR+aV4JAzMDIwMTkGQA0iAIASA+WBQA)
+}
+train (t-cb04nlg3ycdpsqjx8g5zabmn9) {
+  utterance ("[g:Camera] show (lab)[v:CameraName] cameras")
+  plan (Y2BmEE7Oz9VLARIFOakVes6JualFiQwSKIJumXkpEIliBnEsyv2AJAMTAyMQMwBJRgYQYIJgAA==)
+}

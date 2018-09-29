@@ -1,0 +1,25 @@
+result-view {
+  match {
+    Camera (this)
+  }
+  
+  render {
+    if ("size(this) > 1") {
+      list-of (this) {
+        where-each (camera) {
+          layout-macro (camera-summary-fragment) {
+            param (camera) {
+              expression (camera)
+            }
+          }
+        }
+      }
+    } else-if ("size(this) == 1") {
+      layout-macro (camera-details-fragment) {
+        param (camera) {
+          expression (this)
+        }
+      }
+    }
+  }
+}

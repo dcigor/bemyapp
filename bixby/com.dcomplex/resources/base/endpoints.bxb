@@ -7,7 +7,12 @@ endpoints {
 
     action-endpoint (FindEvents) {
       accepted-inputs (name, type, count, dateTimeExpression)
-      local-endpoint ("FindEvents.js")
+      local-endpoint ("event/FindEvents.js")
+    }
+    
+    action-endpoint (FindCameras) {
+      accepted-inputs (name, count)
+      local-endpoint ("camera/FindCameras.js")
     }
   }
 }

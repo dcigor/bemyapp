@@ -1,0 +1,8 @@
+dialog (Result) {
+  match {
+    Camera(this) {
+      from-output: FindCameras(find)
+    }
+  }
+  template ("I found #{spell (size(this))} #{concept(this)}:")
+}

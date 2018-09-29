@@ -1,0 +1,19 @@
+<layout-macro-def id="camera-details-fragment">
+  <params>
+    <param name="camera" type="Camera" max="One" min="Required"/>
+  </params>
+  <content>
+    <layout-macro id="entity:photo-carousel">
+      <photos>{{camera.image}}</photos>
+      <photoCrop>middle</photoCrop>
+    </layout-macro>
+    <layout-macro id="common:sectionedContent">
+      <title>{{camera.name}}</title>
+      <titleSize>medium</titleSize>
+      <borders>true</borders>
+      <content>
+      </content>
+    </layout-macro>
+  </content>
+  <style></style>
+</layout-macro-def>

@@ -1,7 +1,7 @@
 exports.tests = []
 exports.preconditions = []
 
-var EVENTS = require("./lib/events");
+var EVENTS = require("../lib/events");
 
 function eventTypeNumber(type) {
   if (type == 'cat') {
@@ -49,9 +49,6 @@ exports.function = function(name, type, count, dateTimeExpression) {
   // set defaults
   if (!type) {
     type = 'all';
-  }
-  if (!count) {
-    count = 4;
   }
 
   var eventType = eventTypeNumber(type);

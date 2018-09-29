@@ -1,0 +1,3 @@
+integer (CameraId) {
+  description (number of the camera. unique within each server)
+}
