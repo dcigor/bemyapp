@@ -1,0 +1,8 @@
+dialog (Result) {
+  match {
+    Event(this) {
+      from-output: FindEvents(find)
+    }
+  }
+  template ("I found #{spell (size(this))} #{concept(this)}:")
+}

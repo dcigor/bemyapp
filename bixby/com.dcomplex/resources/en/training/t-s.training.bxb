@@ -1,0 +1,4 @@
+train (t-swq7momc4oih8udtk7eolj4sl) {
+  utterance ("[g:Event] find (3)[v:Count] (cars)[v:EventType:car]")
+  plan (Y2BhEErOz9VLARIFOakVeq5lqXklDOIoYm6ZeSlg8WI0xc75pUDFYpgGhFQWpDIwMzAyMAFJBiANghAA4oNFAQ==)
+}

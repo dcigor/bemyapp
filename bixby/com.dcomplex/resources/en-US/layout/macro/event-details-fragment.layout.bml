@@ -1,0 +1,20 @@
+<layout-macro-def id="event-details-fragment">
+  <params>
+    <param name="event" type="Event" max="One" min="Required"/>
+  </params>
+  <content>
+    <layout-macro id="entity:photo-carousel">
+      <photos>{{event.url}}</photos>
+      <photoCrop>middle</photoCrop>
+    </layout-macro>
+    <layout-macro id="common:sectionedContent">
+      <title>{{event.name}} Detected</title>
+      <titleSize>medium</titleSize>
+      <borders>false</borders>
+      <content>
+        {{event.starttime}} <br/>
+      </content>
+    </layout-macro>
+  </content>
+  <style></style>
+</layout-macro-def>

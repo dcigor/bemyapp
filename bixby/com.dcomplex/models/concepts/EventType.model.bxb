@@ -1,0 +1,11 @@
+enum (EventType) {
+  description (Type of an event.)
+  symbol (cat)
+  symbol (dog)
+  symbol (person)
+  symbol (car)
+  symbol (bus)
+  symbol (bicycle)
+  symbol (motorcycle)
+  symbol (all)
+}

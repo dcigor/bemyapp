@@ -1,0 +1,18 @@
+structure (Event) {
+  property (name) {
+    type (EventName)
+    min (Required)
+  }
+  property (type) {
+    type (EventType)
+    min (Required)
+  }
+  property (starttime) {
+    type (Timestamp)
+    min (Required)
+  }
+  property (url) {
+    type (entity.ImageSet)
+    max(One) min (Required)
+  }
+}

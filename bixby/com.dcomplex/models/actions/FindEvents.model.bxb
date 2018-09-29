@@ -1,0 +1,22 @@
+action (FindEvents) {
+  type (Search)
+  collect {
+    input (name) {
+      type (Name)
+      min (Optional)
+    }
+    input (type) {
+      type (EventType)
+      min (Optional)
+    }
+    input (count) {
+      type (Count)
+      min (Optional)
+    }
+    input(dateTimeExpression) {
+      type (time.DateTimeExpression)
+      min (Optional)
+    }
+  }
+  output (Event)
+}

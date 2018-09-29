@@ -1,0 +1,4 @@
+train (t-1ol0rnbz6m7gxf9jm9hxbmf9i) {
+  utterance ("[g:Event] find (bus)[v:EventType:bus]")
+  plan (Y2BmEErOz9VLARIFOakVeq5lqXklDOIoYm6ZeSlg8WIGMUzFIZUFqQxMDIxAzAAkGRlAgAmCAQ==)
+}

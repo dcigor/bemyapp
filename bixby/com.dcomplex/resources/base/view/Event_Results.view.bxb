@@ -1,0 +1,25 @@
+result-view {
+  match {
+    Event (this)
+  }
+  
+  render {
+    if ("size(this) > 1") {
+      list-of (this) {
+        where-each (event) {
+          layout-macro (event-summary-fragment) {
+            param (event) {
+              expression (event)
+            }
+          }
+        }
+      }
+    } else-if ("size(this) == 1") {
+      layout-macro (event-details-fragment) {
+        param (event) {
+          expression (this)
+        }
+      }
+    }
+  }
+}

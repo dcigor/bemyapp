@@ -1,0 +1,4 @@
+train (t-60aadfaz7cdvgi28eww72a37a) {
+  utterance ("[g:Event] find (person)[v:EventType:person]")
+  plan (Y2BmEErOz9VLARIFOakVeq5lqXklDOIoYm6ZeSlg8WIGMUzFIZUFqQxMDIxAzAAkGRlAgAmCAQ==)
+}

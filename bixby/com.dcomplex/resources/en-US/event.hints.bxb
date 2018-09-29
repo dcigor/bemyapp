@@ -1,0 +1,6 @@
+hints {
+  hint-set (Things to try) {
+    utterance (find 5 events with cars)
+    utterance (show buses)
+  }
+}

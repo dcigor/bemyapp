@@ -1,0 +1,10 @@
+vocab (EventType) {
+  "person" {"person" "people" "child" "children"}
+  "cat" {"cat" "cats"}
+  "dog" {"dog" "dogs" "pet" "pets"}
+  "bus" {"bus" "buses"}
+  "car" {"car" "cars" "vehicle" "vehicles" "truck" "trucks"}
+  "bicycle" {"bicycle" "bicycles" "bike" "bikes"}
+  "motorcycle" {"motorcycle" "motorcycles" "scooter" "scooters"}
+  "all" {"all" "everything"}
+}

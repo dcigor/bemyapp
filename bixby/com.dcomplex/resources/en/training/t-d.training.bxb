@@ -1,0 +1,4 @@
+train (t-d6xbwb894apjghfvc6kv428jy) {
+  utterance ("[g:Event] show (cars)[v:EventType:car] from (today)[v:time.DateTimeExpression]")
+  plan (Y2BhEErOz9VLARIFOakVeq5lqXklDOIoYm6ZeSlg8WIGMUzFIZUFqQzSZZlleiWZual6LoklqSFAhmtFQVFqcXFmfh4DMwMjAxOQZADSIAgBID5YFAA=)
+}

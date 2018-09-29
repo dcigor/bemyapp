@@ -1,0 +1,13 @@
+endpoints {
+  authorization {
+    none
+  }
+
+  action-endpoints {
+
+    action-endpoint (FindEvents) {
+      accepted-inputs (name, type, count, dateTimeExpression)
+      local-endpoint ("FindEvents.js")
+    }
+  }
+}
