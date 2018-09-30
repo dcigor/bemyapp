@@ -2,28 +2,34 @@
 
 The projects shows how to connect to a security system and show and filter events of interest. For example: "show all cars detected last Sunday morning" or "show 5 events with people detected today" and etc...
 
-In the future, it might be able to answer more detailed natural language queries, such as "which camera saw a man in red coat loitering this morning". Control camera: "pan gate camera to the left", "send this event to my inbox", ...
+Additionaly it allows to search cameras by name and (in the future) by location.
+
+Additionally (in the future) it would cross-reference cameras and events to allow queries such as: "show buses from cameras in Seattle".
+
+In the future, it might be able to answer more detailed natural language queries, such as "which camera saw a man in red or orange coat loitering yesterday morning". 
+
+Control camera: "pan gate camera to the left", "send this event to my inbox", ...
 
 This version is a prototype. 
-1. The time-based queries are not implemented as I could not yer find time parser for ISO timestamps.
-2. The events are not live to avoid exposing the live servers till the security model is validated. Instead the list of events is hardcoded.
+
+1. The time-based queries are not implemented as I could not yet find time parser for ISO timestamps.
+
+2. The events and cameras are not live to avoid exposing the live servers till the security model is validated. Instead the lists of events and cameras are hardcoded. This will actually simplify testing, as this is now self-contained capsule that does not need the server access.
+
 3. Authentication and authorization are also not completed.
+
 4. The images in the events are live.
+
 5. More functionality (multi-camera support, email events, support for TV and etc) will be added in the future if the project proves business value.
 
 Folder structure:
-code/FindEvents.js  -  converts the list of events to bixby model
-code/lib/events.js  -  hardcoded test sampling of events
+code/event and code/camera  -  converts the mock lists of events and cameras to bixby model
 
-models/concepts/Count.model.bxb		- concept models
-models/concepts/Description.model.bxb
-models/concepts/Timestamp.model.bxb
-models/concepts/Name.model.bxb
-models/concepts/EventName.model.bxb
-models/concepts/EventType.model.bxb
-models/concepts/Event.model.bxb
+code/lib/event and /camera  -  hardcoded mock events and cameras
 
-models/actions/FindEvents.model.bxb - find events action
+models/concepts/event and /camera	 - concept models for events, cameras and shared (such as Count)
+
+models/actions/event and /camera - find events and find cameras actions
 
 resources/en-US/layout/macro - summary and detail layout templates
 
