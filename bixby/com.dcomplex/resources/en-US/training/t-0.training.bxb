@@ -1,4 +1,0 @@
-train (t-055erucqxigqwpoew7fuvynit) {
-  utterance ("[g:com.dcomplex.Event] show (7)[v:com.dcomplex.Count:7] events with (everything)[v:com.dcomplex.EventType:all]")
-  plan (Y2BhEErOz9VLARIFOakVeq5lqXklDOIoYm6ZeSlg8WI0xc75pUDFYpgGhFQWpDIwMzAyMAFJBiANghAA4oNFAQ==)
-}

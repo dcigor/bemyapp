@@ -1,3 +1,0 @@
-integer (Count) {
-  description ("Number of items")
-}

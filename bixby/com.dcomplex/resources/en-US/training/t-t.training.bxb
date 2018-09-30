@@ -1,4 +1,0 @@
-train (t-tgb6ezgz7gns7hw4lzc20xg2o) {
-  utterance ("[g:Event] show (20)[v:Count] events with (people)[v:EventType:person]")
-  plan (Y2BhEErOz9VLARIFOakVeq5lqXklDOIoYm6ZeSlg8WI0xc75pUDFYpgGhFQWpDIwMzAyMAFJBiANghAA4oNFAQ==)
-}

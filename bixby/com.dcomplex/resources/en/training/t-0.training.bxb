@@ -1,0 +1,4 @@
+train (t-0duu8sz12w7yjb5554ngxjtt1) {
+  utterance ("[g:Event] show (3)[v:EventCount] events with (buses)[v:EventType:bus] or (people)[v:EventType:person]")
+  plan (Y2BjEErOz9VLARIFOakVeq5lqXklDOIoYm6ZeSlg8WI0CbCgc34pUIcYpkRIZUEqyeKsDIwMTAzMDCxAFgOQzQhkMwNJEOABQgagDANQBVgeAA==)
+}

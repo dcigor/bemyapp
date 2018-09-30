@@ -1,4 +1,0 @@
-train (t-ff49glea5yltp125i1mo1e8nu) {
-  utterance ("[g:Event] show (cars)[v:EventType:car]")
-  plan (Y2BmEErOz9VLARIFOakVeq5lqXklDOIoYm6ZeSlg8WIGMUzFIZUFqQxMDIxAzAAkGRlAgAmCAQ==)
-}

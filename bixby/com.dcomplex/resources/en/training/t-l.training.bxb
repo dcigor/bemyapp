@@ -1,0 +1,4 @@
+train (t-lby1u977jfclg9vg53lhyijme) {
+  utterance ("[g:Camera] show (ptz)[v:CameraName] cameras")
+  plan (Y2BmEE7Oz9VLARIFOakVes6JualFiQwSKIJumXkpEIliBnEsyv2AJAMTAyMQMwBJRgYQYIJgAA==)
+}

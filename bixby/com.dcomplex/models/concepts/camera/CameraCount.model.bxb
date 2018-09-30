@@ -1,0 +1,3 @@
+integer (CameraCount) {
+  description (Number of cameras)
+}

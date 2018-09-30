@@ -1,0 +1,4 @@
+train (t-8kmqztdbcyv5nv300ji44uuax) {
+  utterance ("[g:Event] find (4)[v:EventCount] events with (buses)[v:EventType:bus] at {[g:Camera] (street)[v:CameraName]} camera")
+  plan (Y2BnEErOz9VLARIFOakVeq5lqXklDOIoYm6ZeSlg8WIGYRQJ58Tc1KJENNVglc75pUBjxDAlQioLUhkkMIyHmFSMZhRE1A9IMrAxMDIwMTAzsDCwAtkMQB4jWIQVSEIAhGYFYpAqJogOAA==)
+}

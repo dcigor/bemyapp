@@ -6,13 +6,13 @@ action (FindCameras) {
       min (Optional)
     }
     input (count) {
-      type (Count)
+      type (CameraCount)
       min (Optional)
       default-init {
         intent {
           goal {Camera}
           value {
-            Count (5)
+            CameraCount (10)
           }
         }
       }

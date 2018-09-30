@@ -7,6 +7,10 @@ structure (Event) {
     type (EventType)
     min (Required)
   }
+  property (cameraId) {
+    type (core.Integer)
+    min (Required)
+  }
   property (starttime) {
     type (Timestamp)
     min (Required)

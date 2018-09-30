@@ -1,0 +1,8 @@
+train (t-o8n5ho6hmu1spd8rik6qeb0t4) {
+  utterance ("[g:Event] find (6)[v:EventCount] events with (cars)[v:EventType:car] or (cats)[v:EventType:cat]")
+  plan (Y2BjEErOz9VLARIFOakVeq5lqXklDOIoYm6ZeSlg8WI0CbCgc34pUIcYpkRIZUEqyeKsDIwMTAzMDCxAFgOQzQhkMwNJEOABQgagDANQBVgeAA==)
+}
+train (t-ob1jdvbr5ad8wzof9ghsk3k7j) {
+  utterance ("[g:Event] find (2)[v:EventCount] events with (cars)[v:EventType:car]")
+  plan (Y2BhEErOz9VLARIFOakVeq5lqXklDOIoYm6ZeSlg8WI0CbCgc34pUIcYpkRIZUEqAzMDIwMTkGQA0iAIASA+WBQA)
+}

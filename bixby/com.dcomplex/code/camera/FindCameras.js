@@ -6,10 +6,6 @@ var CAMERAS = require("../lib/cameras");
 exports.function = function(name, count) {
   // filter to return requested number of cameras
   var matched = 0;
-  
-  if (name == 'all') {
-    name = null;
-  }
  
   var res = CAMERAS.map(function(camera) {
     // filter camera name

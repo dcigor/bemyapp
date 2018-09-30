@@ -45,39 +45,69 @@ function eventName(type) {
   }
 }
 
-exports.function = function(name, type, count, dateTimeExpression) {
-  // set defaults
-  if (!type) {
-    type = 'all';
+function eventType(type) {
+  if (type == 3012) {
+    return 'cat';
+  } else if (type == 3014) {
+    return 'dog';
+  } else if (type == 3016) {
+    return 'person';
+  } else if (type == 3018) {
+    return 'car';
+  } else if (type == 3020) {
+    return 'bus';
+  } else if (type == 3022) {
+    return 'bicycle';
+  } else if (type == 3024) {
+    return 'motorcycle';
+  } else {
+    return 'any';
   }
+}
 
-  var eventType = eventTypeNumber(type);
-  if (!eventType) {
-    return [];
-  }
+function contains(arr, what) {
+  return arr.find(function(e) { return e==what; } );
+}
 
-  // filter to return only events of the requested type
+exports.function = function(name, type, count, dateTimeExpression, camera) {
+  var eventTypes = type && type.length > 0 && !contains(type, 'all') ? type.map(function(t) {return eventTypeNumber(t);}) : null;
+  var cameraIds  = camera && camera.length > 0 ? camera.map(function(c) { return c.Id; }) : null;
+  
+  // events are grouped by camera Id
+  var res = [];
   var matched = 0;
-  var keys = Object.keys(EVENTS);
-  var flat = keys.map(function(id) {
-    var e = EVENTS[id];
+  var deviceIds = Object.keys(EVENTS);
+  deviceIds.map(function(deviceId) {
+    // filter by camera id
+    if (cameraIds && !contains(cameraIds, Number(deviceId))) {
+      return null;
+    }
+    var events   = EVENTS[deviceId];
+    var eventIds = Object.keys(events);
+    eventIds.map(function(evendId) {
+      var event = events[evendId];
+
+      // filter event types
+      if (eventTypes && !eventTypes.find(function(t) {return t==event.type;})) {
+        return null;
+      }
+
+      // filter count
+      if (++matched > count) {
+        return null;
+      }
+        
+      res.push({
+        name: eventName(event.type), // todo: add details, like Bus Detected...
+        type: eventType(event.type),
+        cameraId: Number(deviceId),
+        starttime: event.start,
+        url: {images: [{url: event.url }]}
+      });
+      return null;
+    });
     
-    // filter event type
-    if ((eventType != 1) && (e.type != eventType)) {
-      return null;
-    }
-
-    // filter count
-    if (++matched > count) {
-      return null;
-    }
-
-    return {
-      name: eventName(e.type), // todo: add details, like Bus Detected...
-      type: type,
-      starttime: e.start,
-      url: {images: [{url: e.url }]}
-    };
+    return null;
   });
-  return flat.filter(function(e) { return e; });
+  return res;
 }

@@ -1,0 +1,8 @@
+train (t-v5g3l8c13bvdoip70yjb9vosq) {
+  utterance ("[g:Camera] find (3)[v:CameraCount] (street)[v:CameraName] cameras")
+  plan (Y2BhEE7Oz9VLARIFOakVes6JualFiQwSKIJumXkpEIliNBmIqHN+aV4JgzgWGT8gycDMwMjABCQZgDQIQgCIDxYFAA==)
+}
+train (t-vsbmf5n2br004hcns9a59pnet) {
+  utterance ("[g:Event] show (5)[v:EventCount] events with (people)[v:EventType:person] or (buses)[v:EventType:bus]")
+  plan (Y2BjEErOz9VLARIFOakVeq5lqXklDOIoYm6ZeSlg8WI0CbCgc34pUIcYpkRIZUEqyeKsDIwMTAzMDCxAFgOQzQhkMwNJEOABQgagDANQBVgeAA==)
+}

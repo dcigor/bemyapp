@@ -1,0 +1,4 @@
+train (t-bxpr6mkxmmbvqpu1te2lrdoum) {
+  utterance ("[g:Event] show (3)[v:EventCount] events with (people)[v:EventType:person] from {[g:Camera] (lab)[v:CameraName]} camera")
+  plan (Y2BnEErOz9VLARIFOakVeq5lqXklDOIoYm6ZeSlg8WIGYRQJ58Tc1KJENNVglc75pUBjxDAlQioLUhkkMIyHmFSMZhRE1A9IMrAxMDIwMTAzsDCwAtkMQB4jWIQVSEIAhGYFYpAqJogOAA==)
+}

@@ -4,19 +4,22 @@ action (FindEvents) {
     input (name) {
       type (EventName)
       min (Optional)
+      max (Many)
     }
     input (type) {
       type (EventType)
       min (Optional)
+      max (Many)
     }
     input (count) {
-      type (Count)
+      type (EventCount)
       min (Optional)
+      max (One)
       default-init {
         intent {
           goal {Event}
           value {
-            Count (4)
+            EventCount (20)
           }
         }
       }
@@ -24,6 +27,11 @@ action (FindEvents) {
     input(dateTimeExpression) {
       type (time.DateTimeExpression)
       min (Optional)
+    }
+    input (camera) {
+      type (Camera)
+      min (Optional)
+      max (Many)
     }
   }
   output (Event)

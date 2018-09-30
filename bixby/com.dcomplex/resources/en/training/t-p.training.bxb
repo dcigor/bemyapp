@@ -1,0 +1,4 @@
+train (t-pr1nhwornp6mom9sts3ojm0oj) {
+  utterance ("[g:Event] find (5)[v:EventCount] events with (people)[v:EventType:person]")
+  plan (Y2BhEErOz9VLARIFOakVeq5lqXklDOIoYm6ZeSlg8WI0CbCgc34pUIcYpkRIZUEqAzMDIwMTkGQA0iAIASA+WBQA)
+}
