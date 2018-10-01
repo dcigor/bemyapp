@@ -1,0 +1,4 @@
+train (t-m65c8v12waog36gwgtb273ldk) {
+  utterance ("[g:Camera] show (street)[v:CameraName] camera")
+  plan (Y2BmEE7Oz9VLARIFOakVes6JualFiQwSKIJumXkpEIliBnEsyv2AJAMTAyMQMwBJRgYQYIJgAA==)
+}

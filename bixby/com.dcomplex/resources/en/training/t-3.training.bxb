@@ -1,0 +1,8 @@
+train (t-3v8l2pmtqe7sznndvgyxqpsw1) {
+  utterance ([g:Camera] find cameras)
+  plan (Y2BkEE7Oz9VLARIFOakVes6JualFiQwgwAgiAA==)
+}
+train (t-3vakkyzzxcs9w77xpl35f9r9s) {
+  utterance ("[g:Event] show (3)[v:EventCount] events from {[g:Camera] (street)[v:CameraName]} cameras")
+  plan (Y2BjEErOz9VLARIFOakVeq5lqXklDOIoYm6ZeSlg8WIGYRQJ58Tc1KJENNVglc75pUBjJDCMgegoRtMCEfUDkgysDIwMTAzMDCxAFgOQDeKxAEkGMA8EWICYGSgKVgkA)
+}
