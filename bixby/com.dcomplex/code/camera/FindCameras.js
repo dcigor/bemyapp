@@ -4,6 +4,10 @@ exports.preconditions = []
 var CAMERAS = require("../lib/cameras");
 
 exports.function = function(name, count) {
+  if (name == 'all') {
+    name = null;
+  }
+
   // filter to return requested number of cameras
   var matched = 0;
  
