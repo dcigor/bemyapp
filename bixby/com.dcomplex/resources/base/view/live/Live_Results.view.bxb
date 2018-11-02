@@ -1,0 +1,13 @@
+result-view {
+  match {
+    Live (this)
+  }
+  
+  render {
+    layout-macro (live-fragment) {
+     param (live) {
+        expression (this)
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+structure (EventDateTime) {
+  description (date of events)
+  role-of (time.Date)
+}

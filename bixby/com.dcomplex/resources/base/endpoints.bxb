@@ -14,5 +14,11 @@ endpoints {
       accepted-inputs (name, count)
       local-endpoint ("camera/FindCameras.js")
     }
+    
+    action-endpoint (FindLive) {
+      accepted-inputs (name)
+      local-endpoint ("camera/LiveCamera.js")
+    }
+
   }
 }

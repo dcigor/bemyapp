@@ -1,0 +1,13 @@
+<layout-macro-def id="live-fragment">
+  <params>
+    <param name="live" type="Live" max="One" min="Required"/>
+  </params>
+  <content>
+    <layout-macro id="common:sectionedContent">
+      <title>{{live.name}}</title>
+      <titleSize>medium</titleSize>
+      <borders>false</borders>
+    </layout-macro>
+  </content>
+  <style></style>
+</layout-macro-def>

@@ -1,0 +1,10 @@
+structure (Live) {
+  description (Live Video)
+  property (name) {
+    type (core.Text)
+  }
+  property (url) {
+    type (entity.ImageSet)
+    max(One) min (Required)
+  }
+}

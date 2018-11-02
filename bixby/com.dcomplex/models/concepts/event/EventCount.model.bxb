@@ -1,3 +1,6 @@
 integer (EventCount) {
-  description ("Number of events")
+  description (Number of events)
+  features {
+    transient
+  }
 }

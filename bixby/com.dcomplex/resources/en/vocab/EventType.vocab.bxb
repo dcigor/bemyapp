@@ -7,4 +7,5 @@ vocab (EventType) {
   "bicycle" {"bicycle" "bicycles" "bike" "bikes"}
   "motorcycle" {"motorcycle" "motorcycles" "scooter" "scooters"}
   "all" {"all" "everything"}
+  "motion" {"motion"}
 }

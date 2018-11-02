@@ -1,0 +1,4 @@
+train (t-u43f6mr5frzavqse6nx5q5jyk) {
+  utterance ("[g:Event] find (40)[v:EventCount] events from (floor)[v:CameraName] or (street)[v:CameraName] cameras with (motion)[v:EventType:motion] or (bus)[v:EventType:bus]")
+  plan (Y+BmEErOz9VLARIFOakVeq5lqXklDOIoYm6ZeSlg8WIGYRQJ58Tc1KJENNVglc75pUBjxDAlQioLUkkWl8BwDsTmYjSrIaJ+QJIMCS4GRgYmBmYGFgZWBjYGdgYOBk6gGANQFARZgJAJLMoB5EEADxAyQmkGoB4GsA5msH4GAA==)
+}

@@ -28,5 +28,11 @@ module.exports = [{
     ServerFaceDetection: 1,
     ServerObjectDetection: 1,
     image: {images: [{url:'/images/cameras/street.jpg'}]}
+}, {
+    Id: 1,
+    Name: "Floor",
+    ServerMotionDetection: 0,
+    ServerFaceDetection: 1,
+    image: {images: [{url:'/images/cameras/street.jpg'}]}
 }
 ];

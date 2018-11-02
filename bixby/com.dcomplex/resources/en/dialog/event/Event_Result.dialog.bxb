@@ -4,5 +4,6 @@ dialog (Result) {
       from-output: FindEvents(find)
     }
   }
-  template ("I found #{spell (size(this))} #{concept(this)}:")
+
+  template ("Here are #{spell (size(this))} most recent #{concept(this)} [containing #{value(type)}]:")
 }

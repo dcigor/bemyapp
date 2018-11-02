@@ -1,0 +1,3 @@
+integer (EventId) {
+  description (Unique ID of an event)
+}

@@ -1,0 +1,11 @@
+action (FindLive) {
+  type (Search)
+  collect {
+    input (name) {
+      type (CameraName)
+      min (Optional)
+      max (One)
+    }
+  }
+  output (Live)
+}

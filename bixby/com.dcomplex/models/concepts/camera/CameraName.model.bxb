@@ -1,3 +1,6 @@
-text (CameraName) {
+name (CameraName) {
   description (Name of a camera)
+  features {
+    transient
+  }
 }

@@ -1,4 +1,8 @@
 structure (Event) {
+  property(id) {
+    type (EventId)
+    min (Required)
+  }
   property (name) {
     type (EventName)
     min (Required)
@@ -8,7 +12,7 @@ structure (Event) {
     min (Required)
   }
   property (cameraId) {
-    type (core.Integer)
+    type (EventCameraId)
     min (Required)
   }
   property (starttime) {

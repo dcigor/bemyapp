@@ -4,6 +4,7 @@ action (FindCameras) {
     input (name) {
       type (CameraName)
       min (Optional)
+      max (Many)
     }
     input (count) {
       type (CameraCount)

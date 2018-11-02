@@ -3,8 +3,12 @@ exports.preconditions = []
 
 var CAMERAS = require("../lib/cameras");
 
+function containsName(arr, name) {
+  return arr.find(function(e) { return name.includes(e); } );
+}
+
 exports.function = function(name, count) {
-  if (name == 'all') {
+  if (name && name.length == 0) {
     name = null;
   }
 
@@ -13,10 +17,10 @@ exports.function = function(name, count) {
  
   var res = CAMERAS.map(function(camera) {
     // filter camera name
-    if (name && !camera.Name.toLowerCase().includes(name)) {
+    if (name && !containsName(name, camera.Name.toLowerCase())) {
       return null;
     }
-    
+
     // filter count
     if (++matched > count) {
       return null;
